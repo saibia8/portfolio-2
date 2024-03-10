@@ -10,7 +10,7 @@ const items = [
     id: 1,
     title: 'Bidzone',
     description:
-      "This is my second-semester project at Noroff School of Technology and Digital Media, which I completed during a 5-week period. My main goal was to use what I've learned in the past three semesters to build an auction website. I named my auction site Bidzone. To use all its features, you need to log in or create an account. Unregistered users can browse items and see item details. Planned with GitHub Projects, Designed with Figma, Utilized CSS preprocessor Sass, Implemented CSS Bootstrap framework, Hosted on Netlify.",
+      "This is my second-semester project at Noroff School of Technology and Digital Media, which I completed during a 5-week period. My main goal was to use what I've learned in the past three semesters to build an auction website. I named my auction site Bidzone. To use all its features, you need to log in or create an account. Unregistered users can browse items and see item details.",
     img: '/Bidzone.jpg',
     webLink: 'https://moonlit-medovik-d45fcf.netlify.app/',
     githubLink: 'https://github.com/saibia8/Semester-project-Noroff',
@@ -28,7 +28,7 @@ const items = [
     id: 3,
     title: 'Holidaze',
     description:
-      "As a front-end development student, I completed my final project: designing and coding the fictional Holidaze venue booking website. This project, lasting 7 weeks, demonstrates the skills I've developed over my two years at Noroff in both visual and technical front-end development. For this project, I followed specific user stories and restrictions. These included functionalities like viewing venue lists, searching for venues, booking creation, and user registration. Registered users could also update avatars and manage bookings, while venue managers had additional capabilities such as creating, updating, and deleting venues. I had the freedom to design the user experience and interface according to my preferences. Additionally, the project makes use of an API provided by Noroff. Planned with GitHub Projects, Designed with Figma, Implemented CSS framework Tailwind, Used JavaScript Framework React (>16), Hosted on Netlify.",
+      "As a front-end development student, I completed my final project: designing and coding the fictional Holidaze venue booking website. This project, lasting 7 weeks, demonstrates the skills I've developed over my two years at Noroff in both visual and technical front-end development. For this project, I followed specific user stories and restrictions. These included functionalities like viewing venue lists, searching for venues, booking creation, and user registration. Registered users could also update avatars and manage bookings, while venue managers had additional capabilities such as creating, updating, and deleting venues. I had the freedom to design the user experience and interface according to my preferences.",
     img: '/Holidaze.jpg',
     webLink: 'https://wondrous-crepe-f3e4e1.netlify.app/',
     githubLink: 'https://github.com/saibia8/Holidaze-Project-Exam-2',
@@ -60,26 +60,26 @@ const PortfolioPage = () => {
                 } ${item.id === 3 ? 'rounded-r-[3.5rem]' : ''}`}
                 key={item.id}
               >
-                <div className='flex flex-col gap-8'>
+                <div className='flex flex-col gap-4'>
                   <h1 className='nunito-normal font-extrabold text-6xl md:text-7xl xl:text-8xl text-[#FDFD93]'>
                     0{item.id}
                   </h1>
-                  <h1 className='nunito-normal text-4xl md:text-6xl xl:text-8xl text-white font-bold'>
+                  <h1 className='nunito-normal text-xl md:text-2xl xl:text-4xl text-white font-bold'>
                     {item.title}
                   </h1>
-                  <div className='relative mb-8'>
+                  <div className='relative mb-2'>
                     <Image
                       src={item.img}
                       alt=''
                       width={634}
                       height={304}
-                      className='w-80 h-56  md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[400px]'
+                      className='w-80 h-46  md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[400px]'
                     />
                   </div>
-                  <p className='text-white nunito-normal lg:text-lg w-80 md:w-96 lg:w-[500px] xl:w-[600px] mb-4'>
+                  <p className='text-white nunito-normal lg:text-lg w-80 md:w-96 lg:w-[500px] xl:w-[600px] mb-2'>
                     {item.description}
                   </p>
-                  <div className='flex flex-col gap-2 nunito-normal text-lg'>
+                  <div className='flex flex-col gap-2 nunito-normal'>
                     <Link className='text-[#FDFD93]' href={item.webLink}>
                       Link to live website
                     </Link>
