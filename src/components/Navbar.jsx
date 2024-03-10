@@ -59,11 +59,11 @@ const Navbar = () => {
         ))}
       </div>
       {/* LINKS TO SOCIAL MEDIA */}
-      <div className='hidden md:flex gap-4 w-1/3 justify-end'>
-        <Link href='#'>
+      <div className='hidden md:flex gap-4 w-1/3  justify-end'>
+        <Link href='https://github.com/saibia8'>
           <Image src='/github.png' width={24} height={24} alt='Github' />
         </Link>
-        <Link href='/'>
+        <Link href='https://www.linkedin.com/in/sabina-kutniauske-46a486238/'>
           <Image src='/linkedin.png' width={24} height={24} alt='Linkedin' />
         </Link>
       </div>

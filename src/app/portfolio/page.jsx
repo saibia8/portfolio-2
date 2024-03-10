@@ -8,7 +8,7 @@ import { useRef } from 'react';
 const items = [
   {
     id: 1,
-    title: 'Semester project (Bidzone)',
+    title: 'Bidzone',
     description:
       "This is my second-semester project at Noroff School of Technology and Digital Media, which I completed during a 5-week period. My main goal was to use what I've learned in the past three semesters to build an auction website. I named my auction site Bidzone. To use all its features, you need to log in or create an account. Unregistered users can browse items and see item details. Planned with GitHub Projects, Designed with Figma, Utilized CSS preprocessor Sass, Implemented CSS Bootstrap framework, Hosted on Netlify.",
     img: '/Bidzone.jpg',
@@ -17,7 +17,7 @@ const items = [
   },
   {
     id: 2,
-    title: 'Javascript Frameworks (eCom app)',
+    title: 'eCom app',
     description:
       'This is my first React project, developed after 5 weeks of learning. The task was to create an e-commerce store. The assignment required the creation of 5 web pages: Homepage, Individual product page, Cart page, Checkout success page, and Contact page. Each of these pages had to meet specific project requirements, which are detailed in the GitHub README file. The website was hosted on Netlify',
     img: '/ecom.jpg',
@@ -26,7 +26,7 @@ const items = [
   },
   {
     id: 3,
-    title: 'Project exam 2 (Holidaze)',
+    title: 'Holidaze',
     description:
       "As a front-end development student, I completed my final project: designing and coding the fictional Holidaze venue booking website. This project, lasting 7 weeks, demonstrates the skills I've developed over my two years at Noroff in both visual and technical front-end development. For this project, I followed specific user stories and restrictions. These included functionalities like viewing venue lists, searching for venues, booking creation, and user registration. Registered users could also update avatars and manage bookings, while venue managers had additional capabilities such as creating, updating, and deleting venues. I had the freedom to design the user experience and interface according to my preferences. Additionally, the project makes use of an API provided by Noroff. Planned with GitHub Projects, Designed with Figma, Implemented CSS framework Tailwind, Used JavaScript Framework React (>16), Hosted on Netlify.",
     img: '/Holidaze.jpg',
@@ -61,10 +61,10 @@ const PortfolioPage = () => {
                 key={item.id}
               >
                 <div className='flex flex-col gap-8'>
-                  <h1 className='nunito-normal font-extrabold text-4xl md:text-6xl xl:text-8xl text-[#FDFD93]'>
+                  <h1 className='nunito-normal font-extrabold text-6xl md:text-7xl xl:text-8xl text-[#FDFD93]'>
                     0{item.id}
                   </h1>
-                  <h1 className='nunito-normal text-2xl md:text-4xl xl:text-5xl text-white font-bold'>
+                  <h1 className='nunito-normal text-4xl md:text-6xl xl:text-8xl text-white font-bold'>
                     {item.title}
                   </h1>
                   <div className='relative mb-8'>
