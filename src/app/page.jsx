@@ -11,18 +11,19 @@ const Homepage = () => {
       animate={{ y: '0%' }}
       transition={{ duration: 1 }}
     >
-      <div className='h-full px-4 flex flex-col sm:px-8 md:px-12 lg:px-20 xl:px-48'>
-        <div className='h-1/2 p-10 bg-[#FED795] rounded-[3.5rem] flex-col'>
-          <div className='nunito-normal text-2xl md:text-4xl'>
+      <div className='container mx-auto'>
+        <div className='flex flex-col items-start justify-center bg-[#FED795] w-auto py-64 rounded-2xl'>
+          <p className='nunito-normal text-[2rem] self-start ps-6'>
             SABINA KUTNIAUSKE
-          </div>
-          <p className='h-full bungee-shade-regular text-6xl flex justify-center items-center md:text-8xl xl:text-9xl lg:text-9xl'>
-            DESIGNER & DEVELOPER
           </p>
+          <h1 className='bungee-shade-regular text-[3rem] lg:text-[5rem] ps-6'>
+            DESIGNER & DEVELOPER
+          </h1>
         </div>
-        <div className='h-1/2 flex flex-col sm:flex-row justify-center p-10 gap-8'>
-          <div className='w-1/2 flex flex-col gap-8'>
-            <h1 className='text-2xl font-bold md:text-4xl'>My Portfolio</h1>
+
+        <div className='flex flex-col sm:flex-row justify-center p-10 gap-8'>
+          <div className='flex flex-col gap-8 mb-7'>
+            <h2 className='text-2xl font-bold md:text-4xl'>My Portfolio</h2>
             {/* DESCRIPTION */}
             <p>
               Discover my portfolio to see how I blend creativity and technical
@@ -37,8 +38,8 @@ const Homepage = () => {
               </Link>
             </div>
           </div>
-          <div className='w-1/2 flex flex-col gap-8'>
-            <h1 className='text-2xl font-bold md:text-4xl'>Hire me</h1>
+          <div className='flex flex-col gap-8'>
+            <h2 className='text-2xl font-bold md:text-4xl'>Hire me</h2>
             {/* DESCRIPTION */}
             <p>
               Ready to bring your vision to life? Contact me today to discuss
@@ -54,7 +55,6 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <div></div>
       </div>
     </motion.div>
   );

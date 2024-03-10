@@ -9,6 +9,10 @@
   }
 }
 
+body {
+  background-color: #f1ead8;
+}
+
 .nunito-normal {
   font-family: 'Nunito', sans-serif;
   font-optical-sizing: auto;
