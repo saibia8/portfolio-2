@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+}
+
+.nunito-normal {
+  font-family: 'Nunito', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bungee-shade-regular {
+  font-family: 'Bungee Shade', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.black-shadow {
+  box-shadow: 10px 11px 2px rgba(0, 0, 0, 20);
+}
