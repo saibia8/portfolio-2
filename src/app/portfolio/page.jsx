@@ -28,7 +28,7 @@ const items = [
     id: 3,
     title: 'Holidaze',
     description:
-      "As a front-end development student, I completed my final project: designing and coding the fictional Holidaze venue booking website. This project, lasting 7 weeks, demonstrates the skills I've developed over my two years at Noroff in both visual and technical front-end development. For this project, I followed specific user stories and restrictions. These included functionalities like viewing venue lists, searching for venues, booking creation, and user registration. Registered users could also update avatars and manage bookings, while venue managers had additional capabilities such as creating, updating, and deleting venues. I had the freedom to design the user experience and interface according to my preferences.",
+      "My final project: designing and coding the fictional Holidaze venue booking website. This project demonstrates the skills I've developed over my two years at Noroff. For this project, I followed specific user stories and restrictions. These included functionalities like viewing venue lists, searching for venues, booking creation, and user registration. I had the freedom to design the user experience and interface according to my preferences.",
     img: '/Holidaze.jpg',
     webLink: 'https://wondrous-crepe-f3e4e1.netlify.app/',
     githubLink: 'https://github.com/saibia8/Holidaze-Project-Exam-2',
